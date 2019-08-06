@@ -4,10 +4,42 @@
     <title>Test</title>
     <script type="text/javascript">
       alert("麦子学院JS开始了");
+      console.log("Write Log to Console");
+
+      var a;
+      var b;
+      var c, d;
+      a = 13;
+      b = 15;
+      c = 2;
+      d = a + b + c;
+      alert(d);
+
+      var username = 'king';
+      var USERNAME = "KING";
+      alert(username);
+      alert(USERNAME);
+
+      var age = 12;
+      var test6 = 'hello';
+      alert(test6);
+
+      var firstName = 'king';
+      var FirstName = 'queen';
+      var first_name = 'maizi';
+
+      document.write(firstName);
+      document.write(FirstName);
+      document.write(first_name);
+
     </script>
   </head>
   <body>
     <script src="js/test1.js" type="text/javascript" charset="utf-8"></script>
-    Hello World!
+    <a href="javascript:confirm('您确认要报名学习Javascriptjavascript课程吗?')">报名</a>
+    <p onclick="javascript:alert('hello world')">Click Me</p>
+    <noscript>
+      您的浏览器不支持Javascropt, 请更换查看
+    </noscript>
   </body>
 </html>
